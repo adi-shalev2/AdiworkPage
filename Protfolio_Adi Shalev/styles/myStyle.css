@@ -1,0 +1,298 @@
+*{
+    box-sizing:border-box;
+}
+
+body 
+{
+    direction:rtl;
+    background-image: url(../image/backgroung.jpg);
+   background-size: cover;
+}
+#container
+{
+    margin: 0 auto;
+    width:1300px;
+    font-family:Rubik; 
+
+   
+}
+ header h1,header p {
+    text-align: center;
+    color:white;
+    font-family:Rubik; 
+}
+#homePage .manu  ul li  {
+    border: 2px solid black;
+    height: 150px;
+    width: 210px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d310e9;
+    font-size: 30px;
+    padding-top: 25px;
+     color: white;
+}
+#homePage .manu  {
+    margin-right: 180px;
+}
+
+#homePage .manu  ul li:hover {
+   
+    background-color: #3f70f8;
+
+}
+#homePage .manu  ul li a:hover {
+        color: black;
+}
+
+#homePage nav ul li {
+    list-style: none;
+ }
+#homePage nav ul li a {
+    color: white;
+}
+#homePage nav ul li a:hover {
+    color: red;
+}
+#home {
+   margin-top: 50px;
+   font-size: 40px;
+   color: white;
+}
+#home:hover{
+    color: #3f70f8;
+}
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#container footer nav ul li {
+   display: inline-block;
+   margin-top: 100px;
+   margin-right: 15px;
+   font-size: 25px;
+}
+#container footer nav ul li a {
+    font-size: 25px;
+}
+
+#container footer nav ul li a:hover {
+    color: #1acc18;
+}
+ footer p  {
+    margin-right: 60px;
+}
+#container #tafrit ul li  {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    background-color: #d310e9;
+    color: white;
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+#container #tafrit ul li a {
+      color: white;
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+#container #tafrit ul {
+    margin-right: 260px;
+    margin-top:50px;
+}
+#container #tafrit ul li a:hover {
+    color: black;
+   }
+#container #tafrit ul li:hover {
+    background-color:#3f70f8;
+ }
+#graphica section  .movie {
+    height: 300px;
+    width: 200px;
+    margin-top: 5px;
+}
+#graphica .israelpo {
+    width: 1000px;
+    height: 350px;
+}
+#graphica .elza {
+    width: 500px;
+    height: 350px;
+}
+#graphica section h2, #graphica section p {
+    color:white;
+    margin-right: 150px;
+}
+#graphica section h2 {
+    font-size: 30px;
+}
+#graphica section p {
+border: 0.5px solid black;
+background-color: gray;
+width: 300px;
+padding-right: 5px;
+text-align: center;
+font-size:20px;
+}
+#graphica .movie, #graphica .israelpo, #graphica .elza {
+    margin-right: 150px;
+}
+#photos div img {
+    display: inline-block;
+    width:350px;
+    height:250px;
+}
+#photos div img:hover {
+width: 550px;
+    height:350px;
+}
+#photos div {
+    margin-right: 20px;
+}
+
+#photos section h2 {
+    font-size: 30px;
+    color: white;
+}
+#container #tafrit .choose {
+    background-color: #3f70f8;
+}
+#container #tafrit .choose a {
+    color: black;
+}
+#yeda div > img {
+    width: 530px;
+    height: 400px;
+    margin-right: 130px;
+}
+#yeda div img:hover {
+    width: 830px;
+    height: 600px;
+}
+#yeda div > p {
+    width: 600px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    background-color: gray;
+   padding: 3px 3px 3px 3px;
+   margin-right: 130px;
+}
+#yeda div > h2 {
+    font-size: 30px;
+    color: white;
+    margin-right: 130px;
+}
+#yeda audio {
+    margin-right: 130px;
+}
+
+#ticksho .picture  {
+    background-image: url(../image/takshachh.png);
+      height: 390px;
+    width: 800px;
+    margin-right: 100px;
+}
+#ticksho .picture:hover {
+    background-image: url(../image/takshachh.png);
+      height: 450px;
+    width: 800px;
+    background-position-y: 500px;
+}
+#ticksho .film {
+    margin-top: 50px;
+    margin-right: 210px;
+}
+#ticksho div h2 {
+    font-size: 30px;
+     margin-right: 100px;
+
+}
+#ticksho div p {
+    font-size: 20px;
+    width: 700px;
+    margin-right: 100px;
+    color: white;
+    border: 1px solid black;
+    background-color: gray;
+   padding: 3px 3px 3px 3px;
+}
+#ticksho div p a {
+    color: black;
+}
+#ticksho div p a:hover {
+    color: aquamarine;
+}
+#ticksho div .press {
+margin-right: 100px;
+font-size: 15px;
+margin-bottom: 10px;
+}
+#contect .contect {
+display: block;
+width: 120px;
+}
+#contect .contect #send:hover {
+    background-color: #d310e9;
+}
+#contect .contect {
+    color: white;
+    font-size: 18px;
+}
+#contect .contect {
+    margin-top: 50px;
+    margin-right: 550px;
+}
+#container footer .kishor img {
+    height: 50px;
+    width: 50px;
+}
+#container footer .kishor img:hover {
+    height: 60px;
+    width: 60px;
+
+}
+#container footer div {
+    margin-right:70px
+}
+#phone div p {
+    font-size: 30px;
+    margin-right: 550px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+#phone div p:hover {
+    color: #46ca09;
+}
+#email div p {
+   font-size: 30px;
+    margin-right: 500px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+#email div p:hover {
+    color: #46ca09;
+}
+#odot div h2 {
+    font-size: 30px;
+    margin-right: 100px;
+    color: white;
+}
+#odot div p {
+    font-size: 20px;
+    margin-right: 100px;
+    color: white;
+}
+#odot div p a {
+    color: aquamarine;
+}
+#odot div p a:hover {
+    color: #46ca09;
+}
+
